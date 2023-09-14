@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://thumbs.dreamstime.com/b/drainage-culvert-15163189.jpg'
+export_file_url = 'https://www.dropbox.com/scl/fi/5s18hp26iva71vakfp9au/model.pkl?rlkey=3joilcvlw2323w5pv4g7rsxck&dl=0'
 export_file_name = 'export.pkl'
 
 classes = ['algae', 'flood', 'drought', 'water pollution']
